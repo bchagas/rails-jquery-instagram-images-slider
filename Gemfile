@@ -7,7 +7,10 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 
-gem 'omniauth'
+gem 'oauth2', '0.4.1'
+
+gem 'hashie'
+gem 'httparty'
 
 
 # Gems used only for assets and not required

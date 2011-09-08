@@ -1,1 +1,17 @@
 config/initializers/omniauth.rb
+tmp/
+config/
+lib/
+public/
+script/
+test/
+vendor/
+config.ru
+Rakefile
+models/
+mailers/
+helpers/
+assets/
+db/
+doc/
+
