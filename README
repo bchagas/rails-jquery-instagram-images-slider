@@ -1,3 +1,9 @@
 A simple example how to connect to instagram using Oauth2.
 
 I used the Oauth2 Gem v.0.4.1.
+
+
+TODO:
+[x] Get Access to Instagram
+[x] Get the JSON and display the images simplified
+[ ] Create a nice UI for displaying/rolling Instagram Images with jQuery
