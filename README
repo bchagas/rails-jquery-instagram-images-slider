@@ -6,4 +6,7 @@ I used the Oauth2 Gem v.0.4.1.
 TODO:
 [x] Get Access to Instagram
 [x] Get the JSON and display the images simplified
-[ ] Create a nice UI for displaying/rolling Instagram Images with jQuery
+[x] Create a nice UI for displaying/rolling Instagram Images with jQuery
+[ ] Translate the javascript for image sliding into coffeescript
+[ ] Images shall stop sliding on mouse hover
+[ ] Shall be able to browse between images 
