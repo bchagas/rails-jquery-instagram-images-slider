@@ -1,3 +1,22 @@
 // Place all the styles related to the media_feeds controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main_view {
+	float: left;
+	position: relative;
+	
+	.window {
+		height: 300px;	  width: 300px;
+	  	overflow: hidden;
+		position: relative;
+	
+		.image_reel {
+			position: absolute;
+			top: 0; 	left: 0;
+			
+			img {
+				float: left;
+			}
+		}
+	}
+}

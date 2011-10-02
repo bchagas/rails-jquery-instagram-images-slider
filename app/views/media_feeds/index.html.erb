@@ -1,11 +1,18 @@
+
 <% if logged_in %>
     You are already identified with Instagram <br/>
-    <a href="">My Medias</a><br/>
     <a href="/signout">Sign out</a><br/>
-    <% @hashie.data.each do |h| %>
-        <img src="<%= h.images.low_resolution.url %>">
-    <% end %>
+	<div class="main_view">
+		<div class="window">
+			<div class="image_reel">
+	    		<% @hashie.data.each do |h| %>
+	        		<a href="#"><img src="<%= h.images.low_resolution.url %>"
+									 width="<%= h.images.low_resolution.width %>"></a>
+				
+	    		<% end %>
+			</div>
+		</div>
+	</div>
 <% else %>
     <a href="<%= auth_url %>">Auth with Instagram</a>
 <% end %>
-
